@@ -1,7 +1,7 @@
 # Data Science Toolbox
 
 This is a microservice application which runs different useful data science applications on containers with docker
-![alt text](https://imgur.com/KZfOIXL)
+![alt text](datasciencetoolbox.png)
 ## Dependencies
 Make sure you have [Docker](https://docs.docker.com/get-docker/) installed
 ## Installation
