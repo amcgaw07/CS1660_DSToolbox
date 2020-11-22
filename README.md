@@ -50,9 +50,12 @@ docker-compose up -d
 * Choosing this option opens up a Jupyter Notebook server
 * **Jupyter Notebook should automatically log you in, but if not, the token to login is:** ***easy***
 ### Orange
-* Unimplemented
+* Orange is an open-source data visualization, machine learning and data mining toolkit. It features a visual programming front-end for explorative rapid qualitative data analysis and interactive data visualization.### Visual Studio Code IDE
+* When you select orange it will open up a noVNC client which you must login into with the password provided below. Once logged in you can launch the orange application.
+* **Login:**
+	* **Password:** orange
 ### Visual Studio Code IDE
-* Unimplemented
+* Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
 ### Apache Hadoop
 * Unimplemented
 ### Apache Spark
@@ -73,7 +76,8 @@ docker-compose up -d
 * TensorFlow is a free and open-source software library for machine learning.
 * Toolbox redirects to a Jupyter Notebook server with Tensorflow pre-installed
 * Also comes packed with TensorFlow tutorial documents
-* **Jupyter Notebook should automatically log you in, but if not, the token to login is:** ***easy***
+* **The Jupyter Notebook should automatically log you in, but if not, the token to login is:** ***easy***
 ### Markdown
-* Markdown editor server
+* Markdown editor 
 * Edit on the left and see live changes to your markdown styling on the right of the screen
+* You can drag markdown files from your computer onto the editor to load them in and begin editing
