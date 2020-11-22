@@ -33,5 +33,11 @@ def open_tensor():
 @app.route('/markdown')
 def open_markdown():
     return redirect("http://localhost:12345", code=302)
+@app.route('/vscode')
+def open_vscode():
+    return redirect("http://localhost:8443", code=302)
+@app.route('/orange')
+def open_orange():
+    return redirect("http://localhost:6901", code=302)
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
