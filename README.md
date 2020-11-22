@@ -77,5 +77,3 @@ docker-compose up -d
 ### Markdown
 * Markdown editor server
 * Edit on the left and see live changes to your markdown styling on the right of the screen
-### Notepad++
-* Unimplemented

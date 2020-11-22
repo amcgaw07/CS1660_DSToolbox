@@ -9,9 +9,9 @@ def hello_world():
 @app.route('/rstudio')
 def open_rstudio():
     return redirect("http://localhost:8787", code=302)
-@app.route('/hadoop')
-def open_hadoop():
-    return redirect("http://localhost:9870", code=302)
+#@app.route('/hadoop')
+#def open_hadoop():
+    #return redirect("http://localhost:9870", code=302)
 @app.route('/ibmsas')
 def open_sas():
     return redirect("https://welcome.oda.sas.com/login", code=302)

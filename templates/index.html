@@ -38,6 +38,10 @@
 			height: 25px;
 			float: left;
 		}
+		.grayout {
+			opacity: 0.3; /* Real browsers */
+			filter: alpha(opacity = 60); /* MSIE */
+		}
 
 	</style>
 </head>
@@ -52,11 +56,11 @@
 			<tr></tr>
 			<tr>
 				<td><a href="/rstudio" target="_blank">RStudio</a></td>
-				<td><a href="/hadoop" target="_blank">Apache Hadoop</a></td>
+				<td class="grayout"><a disabled href="" title="UNIMPLEMENTED">Apache Hadoop</a></td>
 			</tr>
 			<tr>
-				<td><a href="">Spyder</a></td>
-				<td><a href="">Apache Spark</a></td>
+				<td class="grayout"><a disabled href="" title="UNIMPLEMENTED">Spyder</a></td>
+				<td class="grayout"><a disabled href="" title="UNIMPLEMENTED">Apache Spark</a></td>
 			</tr>
 			<tr>
 				<td><a href="/ibmsas" target="_blank">IBM SAS</a></td>
@@ -71,12 +75,11 @@
 				<td><a href="/tensor" target="_blank">Tensorflow</a></td>
 			</tr>
 			<tr>
-				<td><a href="">Orange</a></td>
+				<td class="grayout"><a disabled href="" title="UNIMPLEMENTED">Orange</a></td>
 				<td><a href="/markdown" target="_blank">Markdown</a></td>
 			</tr>
 			<tr>
-				<td><a href="">Visual Studio Code IDE</a></td>
-				<td><a href="">Notepad++</a></td>
+				<td class="grayout"> <a disabled href="" title="UNIMPLEMENTED">Visual Studio Code IDE</a></td>
 			</tr>
 		</table>
 	</div>
