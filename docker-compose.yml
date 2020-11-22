@@ -73,12 +73,13 @@ services:
     restart: unless-stopped
   orange:
     image: acopar/orange-docker
-
+    container_name: orange
     ports: 
       - "127.0.0.1:5901:5901"
       - "127.0.0.1:6901:6901"
     volumes:
       - ./orange-profile:/home/orange/.config/biolab.si
+      - ./datasets:/home/orange/datasets
 
 volumes:
     orange-profile:
