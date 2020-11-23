@@ -1,4 +1,4 @@
-
+# Link to project video [link](https://pitt-my.sharepoint.com/:v:/g/personal/ajm279_pitt_edu/EYvv8y9Tp2hOhLjmoEEFC2QBQW84CZEINiaUjprvJhDscQ?e=ELxUum)
 # Data Science Toolbox
 
 This is a microservice application which runs different useful data science applications on containers with docker
@@ -60,8 +60,10 @@ run.sh
 * When you select orange it will open up a noVNC client which you must login into with the password provided below. Once logged in you can launch the orange application.
 * **Login:**
 	* **Password:** orange
+* Data is stored in the 'datasets' folder 
 ### Visual Studio Code IDE
 * Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+* Data is stored in the 'workspace' folder within the config folder
 ### Apache Hadoop
 * Unimplemented
 ### Apache Spark
