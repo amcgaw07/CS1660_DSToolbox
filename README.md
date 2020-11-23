@@ -1,3 +1,4 @@
+
 # Data Science Toolbox
 
 This is a microservice application which runs different useful data science applications on containers with docker
@@ -15,9 +16,14 @@ git clone https://github.com/amcgaw07/CS1660_DSToolbox
 ```
 
 ## Usage
-Navigate to the location of the copied repo in whichever CLI you choose and run docker-compose in detached mode
+Navigate to the location of the copied repo in whichever CLI you choose and run docker-compose in detached mode. After the containers are started, go to http://localhost:5000 in your browser to access the toolbox.
 ```bash
 docker-compose up -d
+```
+
+or you can run the included shell script file to open the toolbox and build the containers automatically 
+```bash
+run.sh
 ```
 ## Applications Included:
 ### Main Toolbox
