@@ -1,4 +1,4 @@
-# Link to project video [link](https://pitt-my.sharepoint.com/:v:/g/personal/ajm279_pitt_edu/EYvv8y9Tp2hOhLjmoEEFC2QBQW84CZEINiaUjprvJhDscQ?e=ELxUum)
+
 # Data Science Toolbox
 
 This is a microservice application which runs different useful data science applications on containers with docker
